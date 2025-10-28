@@ -1,0 +1,20 @@
+[27/10/2025 21:40:57] Cadastro: Cristina Orso (RA 1139000)
+[27/10/2025 21:41:21] Login: RA 1139000
+[27/10/2025 21:41:45] Empréstimo: livro Romeu e Julieta (ID 3) para RA 1139000
+[27/10/2025 21:42:21] Devolução: livro Romeu e Julieta (ID 3) por RA 1139000
+[27/10/2025 21:55:30] Login: RA 1139000
+[27/10/2025 21:56:01] Empréstimo: livro Harry Potter e a Câmara Secreta (ID 5) para RA 1139000
+[27/10/2025 21:56:32] Devolução: livro Harry Potter e a Câmara Secreta (ID 5) por RA 1139000
+[27/10/2025 21:56:39] Empréstimo: livro Harry Potter e o Prisioneiro de Azkaban (ID 6) para RA 1139000
+[27/10/2025 21:56:45] Empréstimo: livro Percy Jackson e o Ladrão de Raios (ID 8) para RA 1139000
+[27/10/2025 21:58:23] Login: RA 1139000
+[27/10/2025 21:58:30] Devolução: livro Percy Jackson e o Ladrão de Raios (ID 8) por RA 1139000
+[28/10/2025 19:18:58] Cadastro: Rafaela Laimer Davesac (RA 1138820)
+[28/10/2025 19:19:12] Login: RA 1138820
+[28/10/2025 19:19:53] Empréstimo: livro Frankenstein (ID 9) para RA 1138820
+[28/10/2025 19:20:17] Devolução: livro Frankenstein (ID 9) por RA 1138820
+[28/10/2025 19:20:34] Empréstimo: livro Percy Jackson e o Ladrão de Raios (ID 8) para RA 1138820
+[28/10/2025 19:21:00] Renovação: loan 6 por RA 1138820 até 11/11/2025
+[28/10/2025 19:21:16] Devolução: livro Percy Jackson e o Ladrão de Raios (ID 8) por RA 1138820
+[28/10/2025 19:24:25] Login: RA 1138820
+[28/10/2025 19:47:49] Login: RA 1139000
