@@ -1,15 +1,15 @@
-#!/usr/bin/env python3
-# main.py - Biblioteca Virtual (versão v2, estilo aluno)
+# Trabalho Cris, Carla e Rafaela - Biblioteca Virtual
+# Nome do sistema: Cosmos — Universo de Ideias
 from funcoes import (
-    iniciar_sistema,
-    login_ou_cadastro,
-    listar_generos,
-    listar_livros_por_genero,
-    listar_meus_livros,
-    retirar_livro_por_id,
-    devolver_antecipado,
-    renovar_emprestimo,
-    salvar_todos
+    iniciar_sistema,  # importa dados iniciais
+    login_ou_cadastro, # função de login ou cadastro
+    listar_generos, # listar gêneros disponíveis
+    listar_livros_por_genero, # listar livros por gênero
+    listar_meus_livros, # listar livros retirados pelo usuário
+    retirar_livro_por_id, # função para retirar livro por ID
+    devolver_antecipado, # função para devolução antecipada
+    renovar_emprestimo, # função para renovação de empréstimo
+    salvar_todos # função para salvar todos os dados
 )
 
 def main():
@@ -40,7 +40,7 @@ def main():
             listar_generos()
             genero = input("Escolha o gênero (ou ENTER para ver todos): ").strip()
             listar_livros_por_genero(livros, genero)
-            # após listar, dar opção de voltar ou escolher livro
+            # Quando ele Lista, da a opção de voltar ao menu ou retirar livro.
             escolha = input("Digite o ID do livro para ver/retirar ou 0 para voltar: ").strip()
             if escolha == '0' or escolha == '':
                 continue
@@ -50,7 +50,7 @@ def main():
         elif opcao == 2:
             listar_meus_livros(livros, ra)
         elif opcao == 3:
-            # opção direta de retirar: mostra todos disponíveis e pede ID
+            # Opção mais direta para retirar livro, mostrando todos os livros.
             listar_livros_por_genero(livros, "")
             book_id = input("Digite o ID do livro que deseja retirar (ou 0 para voltar): ").strip()
             if book_id == '0' or book_id == '':
