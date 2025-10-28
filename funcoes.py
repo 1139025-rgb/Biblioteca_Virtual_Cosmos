@@ -1,4 +1,4 @@
-# funcoes.py - funções básicas para o trabalho de aluno (versão v2)
+# Função Cosmos
 import os, csv
 from datetime import datetime, timedelta
 
