@@ -1,6 +1,13 @@
 # Biblioteca Virtual - Cosmos: Universo de Ideias
 
-O Cosmos é um sistema desenvolvido em Python que simula o funcionamento de uma biblioteca digital de forma prática e envolvente. Ele permite gerenciar usuários, livros e empréstimos com facilidade, oferecendo uma experiência interativa onde cada leitor pode explorar um verdadeiro universo de ideias.
+O Cosmos é um sistema desenvolvido em Python que simula o funcionamento de uma biblioteca digital, voltado para o empréstimo, devolução e renovação de livros.
+O sistema funciona via terminal e permite que usuários se cadastrem, façam login e realizem operações básicas de biblioteca, como:
+
+- Listar livros disponíveis por gênero
+- Retirar livros emprestados (com limite de 2 por usuário)
+- Renovar o prazo de empréstimo
+- Devolver livros antecipadamente
+- Registrar todas as ações em um arquivo de log
 
 ### Integrantes do Grupo
 - Carla Lima - 1139025
@@ -8,4 +15,12 @@ O Cosmos é um sistema desenvolvido em Python que simula o funcionamento de uma 
 - Rafaela Davesac - 1138820
 
 ### Tecnologias utilizadas
-- Phyton 3
+- Python 3
+- Módulo os
+- Módulo csv
+- Módulo datetime
+- Dicionários
+- Funções
+- Manipulação de arquivos txt e csv
+- Tratamento de exceções
+- Estruturas condicionais e loops
